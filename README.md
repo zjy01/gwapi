@@ -2,7 +2,7 @@
 用nodejs制作的扒取数字广外信息的工具
 
 ##安装
-npm install gwapi
+npm install gwapi <br>
 npm install (用于安装拓展包（iconv-lite），如果已经有则不需要下载)
 
 ##功能
