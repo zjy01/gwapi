@@ -1,11 +1,11 @@
 /**
  * Created by zjy on 15-9-26.
  */;
-var gw=require("../../gwapi");
+var gw=require("gwapi");
 var g=new gw();
 var $user={
-    "username":"your Ñ§ºÅ",
-    "password":"your ÃÜÂë"
+    "username":"20131003637",
+    "password":"zjy525315462"
 };
 g.login($user, function(err,res){
     if(err){
