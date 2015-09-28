@@ -3,7 +3,8 @@
 
 ##安装
 npm install gwapi <br>
-npm install (用于安装拓展包（iconv-lite），如果已经有则不需要下载)
+或者 <br/>
+git clone https://github.com/zjy01/gwapi.git
 
 ##功能
 `

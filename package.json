@@ -1,6 +1,6 @@
 {
   "name": "gwapi",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "这是一个用来扒取广外学生信息的包",
   "main": "./lib/gwtxz.js",
   "dependencies": {
@@ -10,6 +10,12 @@
     "doc": "doc"
   },
   "devDependencies": {},
+  "repositories":[
+    {
+      "type":"git",
+      "url":"https://github.com/zjy01/gwapi.git"
+    }
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
