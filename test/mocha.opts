@@ -1,0 +1,6 @@
+-t 5000
+--require ../index.js
+--require chai
+--reporter spec
+--recursive
+--growl

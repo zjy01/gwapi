@@ -1,27 +1,23 @@
 {
   "name": "gwapi",
-  "version": "1.0.3",
-  "description": "这是一个用来扒取广外学生信息的包",
-  "main": "./lib/gwtxz.js",
-  "dependencies": {
-    "iconv-lite": "^0.4.11"
-  },
-  "directories": {
-    "doc": "doc"
-  },
-  "devDependencies": {},
-  "repositories":[
-    {
-      "type":"git",
-      "url":"https://github.com/zjy01/gwapi.git"
-    }
-  ],
+  "version": "2.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "keywords": [
-    "广外，quanta，zjy，gwapi"
-  ],
-  "author": "zjy",
-  "license": "ISC"
+  "description": "爬取广外数据",
+  "main": "index.js",
+  "repository": "https://github.com/zjy01/gwapi.git",
+  "author": "carvenzhang <525315462@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio-without-node-native": "^0.20.1",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "https-proxy-agent": "^1.0.0",
+    "mocha": "^3.2.0",
+    "node-fetch": "^1.6.3"
+  }
 }
